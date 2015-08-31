@@ -247,6 +247,7 @@ class PlayRec(object):
                 )
 
 
+@app
 class MutedPlayRec(PlayRec):
 
     def trigger_playback(self, sess):
